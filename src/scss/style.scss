@@ -95,7 +95,7 @@ body {
 				padding: 0 rem(math.div($containerPadding, 2));
 			}
 
-			else {
+			@else {
 				@include adaptiveValue("padding-left", math.div($containerPadding, 2) 15);
 				@include adaptiveValue("padding-right", math.div($containerPadding, 2) 15);
 			}
