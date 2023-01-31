@@ -101,6 +101,11 @@ body {
 			}
 		}
 	}
+
+	// [class*="__container_wide"] {
+	// 	max-width: rem(1620);
+	// 	margin: 0 auto;
+	// }
 }
 
 @else {
